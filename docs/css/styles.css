@@ -1,20 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway|Roboto');
+@import url(css/styles.css);
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway|Roboto");
+/* line 4, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 * {
-    margin: 0 auto;
-}
+  margin: 0 auto;
+  overflow-x: hidden; }
 
+/* line 9, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 header {
-    margin: 0 auto;
-    background-image: url(../img/photo.png);
-    width: 1920px;
-    height: 1024px;
-}
+  margin: 0 auto;
+  background-image: url(../img/photo.png);
+  width: 1920px;
+  height: 1024px; }
 
+/* line 16, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 nav {
-    clear: both;
-}
+  clear: both; }
 
-@keyframes anim{
+/*@keyframes anim{
 from {margin-left:3px;}
 to {margin-left:376px;}
 }
@@ -25,222 +27,238 @@ to {margin-left:376px;}
 @-webkit-keyframes anim{
 from {margin-left:3px;}
 to {margin-left:376px;}
-}
-
-
+}*/
+/* line 34, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 .logo {
-    float: left;
-    margin-top: 40px;
-    margin-left: 376px;
-    animation: anim 4s 1;
-}
+  float: left;
+  margin-top: 40px;
+  margin-left: 376px;
+  /*animation: anim 4s 1;*/ }
 
+/* line 41, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 logo img {
-    float: left;
-    background-color: #ffffff;
-    width: 64px;
-    height: 56px;
-}
+  float: left;
+  background-color: #ffffff;
+  width: 64px;
+  height: 56px; }
 
-.logo h4 {
-    float: right;
-    margin-top: 15px;
-    margin-left: 2px;
-    font-family: Raleway;
-    color: #ffffff;
-    font-size: 34px;
-    font-weight: 400;
-    text-align: right;
-}
+/* line 48, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
+.logo h1 {
+  float: right;
+  margin-top: 15px;
+  margin-left: 2px;
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 34px;
+  font-weight: 400;
+  text-align: right; }
 
+/* line 59, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 .main-menu {
-    list-style-type: none;
-    float: right;
-    margin-top: 62px;
-    margin-right: 374px;
-}
+  list-style-type: none;
+  float: left;
+  margin-top: 62px;
+  margin-right: 374px; }
 
+/* line 66, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 .main-menu li {
-    float: left;
-    margin-right: 30px;
-}
+  float: left;
+  margin-right: 30px; }
 
+/* line 71, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 .main-menu li:nth-of-type(8) {
-    margin-right: 63px;
-}
+  margin-right: 63px; }
 
+/* line 75, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 .main-menu a {
-    text-decoration: none;
-    font-family: Montserrat;
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: 300;
-    text-align: left;
-}
+  text-decoration: none;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: left; }
 
+/* line 84, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 .main-menu a:hover {
-    text-decoration: none;
-    font-family: Montserrat;
-    color: #c7b29a;
-    font-size: 14px;
-    font-weight: none;
-    text-align: left;
-}
+  text-decoration: none;
+  font-family: Montserrat;
+  color: #c7b29a;
+  font-size: 14px;
+  font-weight: none;
+  text-align: left; }
 
+/* line 93, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 .slogan {
-    float: left;
-    margin-top: 285px;
-    margin-left: 109px;
-    width: 589px;
-}
+  float: left;
+  margin-top: 285px;
+  margin-left: 109px;
+  width: 589px;
+  clear: both; }
 
+/* line 101, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 .slogan h4 {
-    font-family: Raleway;
-    color: #ffffff;
-    font-size: 36px;
-    font-weight: 500;
-    text-align: center;
-}
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center; }
 
+/* line 109, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 .slogan h3 {
-    font-family: Raleway;
-    color: #ffffff;
-    font-size: 52px;
-    font-weight: 700;
-    text-align: center;
-}
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 52px;
+  font-weight: 700;
+  text-align: center; }
 
+/* line 117, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 .slogan h5 {
-    font-family: Montserrat;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 24px;
-    text-align: center;
-}
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center; }
 
+/* line 126, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 #get-started {
-    border-radius: 3px;
-    background-color: #998675;
-    width: 170px;
-    height: 53px;
-    font-family: Raleway;
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 23px;
-    text-align: center;
-    margin-top: 52px;
-    margin-left: 196px;
-    overflow: hidden;
-}
+  border-radius: 3px;
+  background-color: #998675;
+  width: 170px;
+  height: 53px;
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: center;
+  margin-top: 52px;
+  margin-left: 209px;
+  overflow: hidden; }
 
+/* line 142, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 .slides {
-    float: left;
-    padding: 0;
-    margin-left: 849px;
-    margin-top: 327px;
-}
+  float: left;
+  padding: 0;
+  margin-left: 849px;
+  margin-top: 317px; }
 
+/* line 149, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 .slides li {
-    float: left;
-    list-style-type: none;
-    margin-right: 10px;
-}
+  float: left;
+  list-style-type: none;
+  margin-right: 10px; }
 
+/* line 155, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 .slides li a {
-    display: block;
-    text-decoration: none;
-    border-radius: 50%;
-    background-color: darkgray;
-    width: 11px;
-    height: 11px;
-    margin: 10px;
-    -webkit-transition: all 0.5s 0.5s;
-    -moz-transition: all 0.5s 0.5s;
-    -o-transition: all 0.5s 0.5s;
-    transition: all 0.5s 0.5s;
-}
+  display: block;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: darkgray;
+  width: 11px;
+  height: 11px;
+  margin: 10px;
+  -webkit-transition: all 0.5s 0.5s;
+  -moz-transition: all 0.5s 0.5s;
+  -o-transition: all 0.5s 0.5s;
+  transition: all 0.5s 0.5s; }
 
+/* line 169, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 .slides a:hover,
 .slides a:active {
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #d3c1ad;
-    box-sizing: border-box;
-    background-color: rgba(255, 255, 255, 0);
-    width: 15px;
-    height: 15px;
-    margin: 8px 8px 8px 8px;
-}
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #d3c1ad;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0);
+  width: 15px;
+  height: 15px;
+  margin: 8px 8px 8px 8px; }
 
+/* line 182, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 .arrows {
-    padding: 0;
-}
+  padding: 0;
+  width: 1620px;
+  float: left;
+  margin-left: 150px;
+  margin-right: 150px;
+  position: absolute;
+  top: 475px; }
 
+/* line 192, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 .arrows li {
-    list-style-type: none;
-}
+  list-style-type: none; }
 
+/* line 196, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 .arrows li:nth-of-type(1) {
-    float: left;
-    margin-top: -476px;
-    margin-left: 150px;
-    clear: both;
-}
+  float: left; }
 
+/* line 200, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 .arrows li:nth-of-type(2) {
-    float: right;
-    margin-top: -476px;
-    margin-right: 150px;
-}
+  float: right; }
 
+/* line 204, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 .left-arrow {
-    width: 40px;
-    height: 73px;
-    float: left;
-}
+  width: 40px;
+  height: 73px;
+  float: left; }
 
+/* line 210, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 .inner-left-arrow {
-    float: left;
-    background-image: url(../img/left.png);
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-     
-}
+  float: left;
+  background-image: url(../img/left.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease; }
 
+/* line 224, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 .left-arrow:hover {
-    background: url(../img/left_accented.png);
-}
+  background: url(../img/left_accented.png); }
 
- .right-arrow {
-    width: 40px;
-    height: 73px;
-    float: left;
-}
+/* line 228, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
+.right-arrow {
+  width: 40px;
+  height: 73px;
+  float: left; }
 
+/* line 234, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 .inner-right-arrow {
-    float: left;
-    background-image: url(../img/left.png);
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-     
-}
+  float: left;
+  background-image: url(../img/right.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
 
+/* line 248, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
 .right-arrow:hover {
-    background-image: url(../img/left_accented.png);
-    transform: rotate(180deg)
-}
+  background-image: url(../img/right_accented.png); }
+
+@media screen and (max-width: 1680px) {
+  /* line 253, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
+  .logo {
+    margin-left: 295px; }
+  /* line 257, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
+  .main-menu {
+    margin-right: 295px; }
+  /* line 261, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
+  .slogan {
+    margin-left: 545px; }
+  /* line 265, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
+  .arrows {
+    width: 1380px; }
+  /* line 269, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
+  .slides {
+    margin-left: 737px; } }
+
+/*# sourceMappingURL=styles.css.map */

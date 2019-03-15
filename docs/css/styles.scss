@@ -1,0 +1,272 @@
+@import 'css/styles.css';
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway|Roboto');
+* {
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+header {
+    margin: 0 auto;
+    background-image: url(../img/photo.png);
+    width: 1920px;
+    height: 1024px;
+}
+
+nav {
+    clear: both;
+}
+
+/*@keyframes anim{
+from {margin-left:3px;}
+to {margin-left:376px;}
+}
+@-moz-keyframes anim{
+from {margin-left:3px;}
+to {margin-left:376px;}
+}
+@-webkit-keyframes anim{
+from {margin-left:3px;}
+to {margin-left:376px;}
+}*/
+
+
+.logo {
+    float: left;
+    margin-top: 40px;
+    margin-left: 376px;
+    /*animation: anim 4s 1;*/
+}
+
+logo img {
+    float: left;
+    background-color: #ffffff;
+    width: 64px;
+    height: 56px;
+}
+
+.logo h1 {
+    float: right;
+    margin-top: 15px;
+    margin-left: 2px;
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 34px;
+    font-weight: 400;
+    text-align: right;
+}
+
+.main-menu {
+    list-style-type: none;
+    float: left;
+    margin-top: 62px;
+    margin-right: 374px;
+}
+
+.main-menu li {
+    float: left;
+    margin-right: 30px;
+}
+
+.main-menu li:nth-of-type(8) {
+    margin-right: 63px;
+}
+
+.main-menu a {
+    text-decoration: none;
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.main-menu a:hover {
+    text-decoration: none;
+    font-family: Montserrat;
+    color: #c7b29a;
+    font-size: 14px;
+    font-weight: none;
+    text-align: left;
+}
+
+.slogan {
+    float: left;
+    margin-top: 285px;
+    margin-left: 109px;
+    width: 589px;
+    clear: both;
+}
+
+.slogan h4 {
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.slogan h3 {
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.slogan h5 {
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+}
+
+#get-started {
+    border-radius: 3px;
+    background-color: #998675;
+    width: 170px;
+    height: 53px;
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 52px;
+    margin-left: 209px;
+    overflow: hidden;
+}
+
+.slides {
+    float: left;
+    padding: 0;
+    margin-left: 849px;
+    margin-top: 317px;
+}
+
+.slides li {
+    float: left;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.slides li a {
+    display: block;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: darkgray;
+    width: 11px;
+    height: 11px;
+    margin: 10px;
+    -webkit-transition: all 0.5s 0.5s;
+    -moz-transition: all 0.5s 0.5s;
+    -o-transition: all 0.5s 0.5s;
+    transition: all 0.5s 0.5s;
+}
+
+.slides a:hover,
+.slides a:active {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #d3c1ad;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0);
+    width: 15px;
+    height: 15px;
+    margin: 8px 8px 8px 8px;
+}
+
+.arrows {
+    padding: 0;
+    width: 1620px;
+    float: left;
+    margin-left: 150px;
+    margin-right: 150px;
+    position: absolute;
+    top: 475px;
+}
+
+.arrows li {
+    list-style-type: none;
+}
+
+.arrows li:nth-of-type(1) {
+    float: left;
+}
+
+.arrows li:nth-of-type(2) {
+    float: right;
+}
+
+.left-arrow {
+    width: 40px;
+    height: 73px;
+    float: left;
+}
+
+.inner-left-arrow {
+    float: left;
+    background-image: url(../img/left.png);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+     
+}
+
+.left-arrow:hover {
+    background: url(../img/left_accented.png);
+}
+
+ .right-arrow {
+    width: 40px;
+    height: 73px;
+    float: left;
+}
+
+.inner-right-arrow {
+    float: left;
+    background-image: url(../img/right.png);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+     
+}
+
+.right-arrow:hover {
+    background-image: url(../img/right_accented.png);
+}
+
+@media screen and (max-width: 1680px) {
+    .logo {
+        margin-left: 295px;
+    }
+    
+    .main-menu {
+        margin-right: 295px;
+    }
+    
+    .slogan {
+        margin-left: 545px;
+    }
+    
+    .arrows {
+        width: 1380px;
+    }
+    
+    .slides {
+        margin-left: 737px;
+    }
+}
