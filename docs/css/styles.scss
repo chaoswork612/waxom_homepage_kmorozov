@@ -270,3 +270,25 @@ logo img {
         margin-left: 737px;
     }
 }
+
+@media screen and (max-width: 1520px) {
+    .logo {
+        margin-left: 235px;
+    }
+    
+    .main-menu {
+        margin-right: 235px;
+    }
+    
+    .slogan {
+        margin-left: 465px;
+    }
+    
+    .arrows {
+        width: 1220px;
+    }
+    
+    .slides {
+        margin-left: 657px;
+    }
+}

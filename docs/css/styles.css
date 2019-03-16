@@ -261,4 +261,21 @@ logo img {
   .slides {
     margin-left: 737px; } }
 
+@media screen and (max-width: 1520px) {
+  /* line 275, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
+  .logo {
+    margin-left: 235px; }
+  /* line 279, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
+  .main-menu {
+    margin-right: 235px; }
+  /* line 283, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
+  .slogan {
+    margin-left: 465px; }
+  /* line 287, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
+  .arrows {
+    width: 1220px; }
+  /* line 291, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
+  .slides {
+    margin-left: 657px; } }
+
 /*# sourceMappingURL=styles.css.map */
