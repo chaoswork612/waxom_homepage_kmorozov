@@ -1,5 +1,4 @@
 @import 'css/styles.css';
-
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway|Roboto');
 * {
     margin: 0 auto;
@@ -17,6 +16,7 @@ nav {
     clear: both;
 }
 
+
 /*@keyframes anim{
 from {margin-left:3px;}
 to {margin-left:376px;}
@@ -29,7 +29,6 @@ to {margin-left:376px;}
 from {margin-left:3px;}
 to {margin-left:376px;}
 }*/
-
 
 .logo {
     float: left;
@@ -218,14 +217,13 @@ logo img {
     -moz-transition: all 0.1s ease;
     -o-transition: all 0.1s ease;
     transition: all 0.1s ease;
-     
 }
 
 .left-arrow:hover {
     background: url(../img/left_accented.png);
 }
 
- .right-arrow {
+.right-arrow {
     width: 40px;
     height: 73px;
     float: left;
@@ -242,32 +240,121 @@ logo img {
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-     
 }
 
 .right-arrow:hover {
     background-image: url(../img/right_accented.png);
 }
 
+.services {
+    margin-left: 378px;
+}
+
+.services article {
+    float: left;
+    margin-top: 80px;
+    margin-right: 33px;
+    width: 266px;
+    position: relative;
+}
+
+.below-design,
+.below-development,
+.below-customization,
+.below-marketing {
+    position: absolute;
+    width: 50%;
+    height: 220px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 2px solid black;
+}
+
+.below-design:hover,
+.below-development:hover,
+.below-customization:hover,
+.below-marketing:hover {
+    border-bottom: 2px solid #c7b299;
+}
+
+.design img[alt="pencil"],
+.development img[alt="stack"],
+.customization i,
+.marketing img[alt="briefcase"] {
+    font-size: 49px;
+    width: 49px;
+    height: 49px;
+    float: left;
+    margin-left: 109px;
+}
+
+.aervices h1 {
+    float: left;
+    margin-top: 29px;
+    font-family: Raleway;
+    color: #555555;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.design h1 {
+    margin-left: 37px;
+}
+
+.development h1 {
+    margin-left: 64px;
+}
+
+.customization h1 {
+    margin-left: 61px;
+}
+
+.marketing h1 {
+    margin-left: 84px;
+}
+
+.design:hover h1,
+.development:hover h1,
+.customization:hover h1,
+.marketing:hover h1,
+.customization:hover i {
+    color: #c7b299;
+}
+
+.design p,
+.development p,
+.customization p,
+.marketing p {
+    float: left;
+    margin-top: 19px;
+    margin-bottom: 30px;
+    font-family: Montserrat;
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+}
+
 @media screen and (min-width: 1520px) and (max-width: 1680px) {
     .logo {
         margin-left: 295px;
     }
-    
     .main-menu {
         margin-right: 295px;
     }
-    
     .slogan {
         margin-left: 545px;
     }
-    
     .arrows {
         width: 1380px;
     }
-    
     .slides {
         margin-left: 737px;
+    }
+    .services {
+        margin-left: 212px;
     }
 }
 
@@ -275,20 +362,19 @@ logo img {
     .logo {
         margin-left: 235px;
     }
-    
     .main-menu {
         margin-right: 235px;
     }
-    
     .slogan {
         margin-left: 465px;
     }
-    
     .arrows {
         width: 1220px;
     }
-    
     .slides {
         margin-left: 657px;
+    }
+    .services {
+        margin-left: 162px;
     }
 }
