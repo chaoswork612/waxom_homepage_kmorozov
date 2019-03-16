@@ -244,7 +244,7 @@ logo img {
 .right-arrow:hover {
   background-image: url(../img/right_accented.png); }
 
-@media screen and (max-width: 1680px) {
+@media screen and (min-width: 1520px) and (max-width: 1680px) {
   /* line 253, /Users/konstantin-morozov/Documents/Geekbrains/HTML5 CSS3/waxom_homepage_kmorozov/docs/css/styles.scss */
   .logo {
     margin-left: 295px; }
